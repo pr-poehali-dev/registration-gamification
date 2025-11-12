@@ -74,6 +74,27 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0A0E27] via-[#1a1f3a] to-[#0A0E27] flex items-center justify-center p-4 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDAsIDI0MCwgMjU1LCAwLjEpIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-30" />
+      
+      <img 
+        src="https://cdn.poehali.dev/projects/3d752622-109e-480c-9401-1426c9043c34/files/f615176d-76f5-41e5-8c2e-a43fa4ca1d56.jpg" 
+        alt="" 
+        className="absolute top-20 right-10 w-64 h-64 object-contain opacity-40 animate-[float_6s_ease-in-out_infinite] hidden lg:block"
+        style={{ filter: 'drop-shadow(0 0 30px rgba(0, 240, 255, 0.3))' }}
+      />
+      
+      <img 
+        src="https://cdn.poehali.dev/projects/3d752622-109e-480c-9401-1426c9043c34/files/1fdfad46-b360-4b48-ac3b-8a006a92f54b.jpg" 
+        alt="" 
+        className="absolute bottom-32 left-10 w-56 h-56 object-contain opacity-35 animate-[float_8s_ease-in-out_infinite] hidden lg:block"
+        style={{ filter: 'drop-shadow(0 0 30px rgba(176, 38, 255, 0.3))', animationDelay: '2s' }}
+      />
+      
+      <img 
+        src="https://cdn.poehali.dev/projects/3d752622-109e-480c-9401-1426c9043c34/files/80e734a2-9848-48e6-ab5c-4aa067790a8b.jpg" 
+        alt="" 
+        className="absolute top-1/3 left-20 w-52 h-52 object-contain opacity-30 animate-[float_7s_ease-in-out_infinite] hidden lg:block"
+        style={{ filter: 'drop-shadow(0 0 30px rgba(255, 0, 255, 0.3))', animationDelay: '4s' }}
+      />
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl w-full relative z-10">
         <div className="lg:col-span-2">
